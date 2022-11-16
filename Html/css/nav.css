@@ -1,0 +1,29 @@
+nav ul li{
+    
+    list-style: none;
+    padding: 20px;
+    margin-right: 20px;
+
+   
+}
+nav > ul{
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+   
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li{
+    background-color: aqua;
+    padding: 5px;
+    border: 1px solid black;
+   
+}
